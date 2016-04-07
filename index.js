@@ -11,7 +11,7 @@ createPK(function() {
     return new Repo(cur);
   })
   github.on('push', function (event, repo, ref, data) {
-    repos.forEach(function() {
+    repos.forEach(function(cur) {
       cur.check(event,repo,ref,data);
     });
   });
