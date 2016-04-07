@@ -1,0 +1,10 @@
+out/
+node_modules/
+raw-assets/
+.DS_Store
+*.log
+.tmp
+*.pyc
+*.swp
+*~
+/.env

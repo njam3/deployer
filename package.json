@@ -1,0 +1,18 @@
+{
+  "name": "deployer",
+  "version": "1.0.0",
+  "description": "A deployment utility for use with AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Poisson <nick@jam3.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cross-spawn-async": "^2.1.9",
+    "dotenv": "^2.0.0",
+    "githubhook": "^1.5.1",
+    "mkdirp": "^0.5.1"
+  }
+}
